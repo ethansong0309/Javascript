@@ -1,5 +1,6 @@
 //Copy from https://www.sitepoint.com/quick-tip-persist-checkbox-checked-state-after-page-reload/
-//Persist Checkbox Checked State after Page Reload
+//Persist Checkbox Checked State after Page Reload...
+
 
 var formValues = JSON.parse(localStorage.getItem('formValues')) || {};
 var $checkboxes = $("#checkbox-container :checkbox");
